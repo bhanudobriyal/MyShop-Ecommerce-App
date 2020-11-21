@@ -1,0 +1,27 @@
+{
+    "name": "myshop",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bhanudobriyal/MyShop-Ecommerce-App.git"
+    },
+    "author": "Bhanu Dobriyal",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bhanudobriyal/MyShop-Ecommerce-App/issues"
+    },
+    "homepage": "https://github.com/bhanudobriyal/MyShop-Ecommerce-App#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
